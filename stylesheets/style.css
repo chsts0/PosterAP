@@ -1,3 +1,5 @@
 @import 'reset.css';
-@import url();
 @import 'main.css';
+@import 'responsive.css';
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+@import url("https://use.typekit.net/cmq7lpl.css");

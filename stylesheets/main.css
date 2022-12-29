@@ -1,0 +1,701 @@
+body {
+	width: 1519px;
+	height: 3115px;
+	margin: 0 auto;
+}
+
+section {
+	overflow: hidden;
+}
+
+.fisrt {
+	position: sticky;
+	top: 0;
+}
+
+.sky {
+	position: relative;
+	display: flex;
+	background-image: url(../images/Sky.svg);
+	width: 100%;
+	height: 855px;
+	top: -142px;
+}
+
+.lightningLeft {
+	position: absolute;
+	display: flex;
+	margin-left: 18%;
+	margin-top: 8%;
+	animation-name: left;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-timing-function: linear;
+	animation-delay: -1.5s;
+}
+
+@keyframes left {
+	0% {
+		margin-left: 18%;
+		margin-top: 8%;
+		rotate: 0%;
+	}
+
+	17% {
+		margin-left: 18.5%;
+		margin-top: 9.5%;
+		rotate: -2deg;
+	}
+
+	34% {
+		margin-left: 19%;
+		margin-top: 9%;
+		rotate: 2deg;
+	}
+
+	51% {
+		margin-left: 18.5%;
+		margin-top: 8%;
+		rotate: -2deg;
+	}
+
+	68% {
+		margin-left: 18%;
+		margin-top: 9.5%;
+		rotate: 2deg;
+	}
+
+	85% {
+		margin-left: 17.5%;
+		margin-top: 9%;
+		rotate: -2deg;
+	}
+
+	100% {
+		margin-left: 18%;
+		margin-top: 8%;
+		rotate: 0%;
+	}
+}
+
+.lightningLineLeft {
+	position: absolute;
+	display: flex;
+	margin-left: 18%;
+	margin-top: 8.5%;
+}
+
+
+.lightningMiddle {
+	position: absolute;
+	display: flex;
+	margin-left: 48%;
+	margin-top: 6%;
+	animation-name: middle;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-timing-function: linear;
+}
+
+@keyframes middle {
+	0% {
+		margin-left: 48%;
+		margin-top: 6%;
+		rotate: 0%;
+	}
+
+	17% {
+		margin-left: 48.5%;
+		margin-top: 7.5%;
+		rotate: -2deg;
+	}
+
+	34% {
+		margin-left: 49%;
+		margin-top: 7%;
+		rotate: 2deg;
+	}
+
+	51% {
+		margin-left: 48.5%;
+		margin-top: 6%;
+		rotate: -2deg;
+	}
+
+	68% {
+		margin-left: 48%;
+		margin-top: 7.5%;
+		rotate: 2deg;
+	}
+
+	85% {
+		margin-left: 47.5%;
+		margin-top: 7%;
+		rotate: -2deg;
+	}
+
+	100% {
+		margin-left: 48%;
+		margin-top: 6%;
+		rotate: 0%;
+	}
+}
+
+
+.lightningLineMiddle {
+	position: absolute;
+	display: flex;
+	margin-left: 48.5%;
+	margin-top: 6.5%;
+}
+
+
+.lightningRight {
+	position: absolute;
+	display: flex;
+	margin-left: 79%;
+	margin-top: 12%;
+	animation-name: right;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-timing-function: linear;
+	animation-delay: -1.5s;
+}
+
+@keyframes right {
+	0% {
+		margin-left: 79%;
+		margin-top: 12%;
+		rotate: 0%;
+	}
+
+	17% {
+		margin-left: 79.5%;
+		margin-top: 13.5%;
+		rotate: -2deg;
+	}
+
+	34% {
+		margin-left: 80%;
+		margin-top: 13%;
+		rotate: 2deg;
+	}
+
+	51% {
+		margin-left: 79.5%;
+		margin-top: 12%;
+		rotate: -2deg;
+	}
+
+	68% {
+		margin-left: 79%;
+		margin-top: 13.5%;
+		rotate: 2deg;
+	}
+
+	85% {
+		margin-left: 78.5%;
+		margin-top: 13%;
+		rotate: -2deg;
+	}
+
+	100% {
+		margin-left: 79%;
+		margin-top: 12%;
+		rotate: 0%;
+	}
+}
+
+/*
+0%=    0       0   
+17%=  +0.5    +1.5
+34%=  +0.5    -0.5
+51%=  -0.5    -1
+68%=  -0.5    +1.5
+85%=  -0.5    -0.5
+100%= +0.5    -1
+*/
+
+.lightningLineRight {
+	position: absolute;
+	display: flex;
+	margin-left: 78.5%;
+	margin-top: 13%;
+}
+
+.clouds {
+	position: absolute;
+	display: flex;
+}
+
+.skyanima {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	height: 855px;
+	animation-name: skyanima;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+}
+
+@keyframes skyanima {
+	0% {
+		opacity: 0%;
+	}
+
+	5% {
+		opacity: 0%;
+	}
+
+	10% {
+		opacity: 100%;
+	}
+
+	15% {
+		opacity: 100%;
+	}
+
+	20% {
+		opacity: 0%;
+	}
+
+	25% {
+		opacity: 0%;
+	}
+
+	30% {
+		opacity: 0%;
+	}
+
+	35% {
+		opacity: 100%;
+	}
+
+	40% {
+		opacity: 0%;
+	}
+
+	45% {
+		opacity: 100%;
+	}
+
+	50% {
+		opacity: 0%;
+	}
+
+	55% {
+		opacity: 0%;
+	}
+
+	60% {
+		opacity: 0%;
+	}
+
+	65% {
+		opacity: 0%;
+	}
+
+	70% {
+		opacity: 100%;
+	}
+
+	75% {
+		opacity: 100%;
+	}
+
+	80% {
+		opacity: 0%;
+	}
+
+	85% {
+		opacity: 0%;
+	}
+
+	90% {
+		opacity: 0%;
+	}
+
+	95% {
+		opacity: 100%;
+	}
+
+	100% {
+		opacity: 0%;
+	}
+}
+
+.second {
+	position: relative;
+	display: flex;
+	background-image: url(../images/Wall.svg);
+	width: 100%;
+	height: 975px;
+	margin-top: -15px;
+}
+
+.curtain {
+	position: absolute;
+	margin-top: 47px;
+	display: flex;
+}
+
+.wallshadow {
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 180px;
+	display: flex;
+
+}
+
+.baa {
+	animation-name: baa;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes baa {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 100%;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.cloud1_1 {
+	position: absolute;
+	display: flex;
+	margin-left: 46.5%;
+	margin-top: 38.5%;
+	rotate: -7deg;
+}
+
+.cloud1_2 {
+	position: absolute;
+	display: flex;
+	margin-left: 43.5%;
+	margin-top: 53%;
+	rotate: 7deg;
+}
+
+.cloud1_3 {
+	position: absolute;
+	display: flex;
+	margin-left: 68.5%;
+	margin-top: 6%;
+	rotate: 7deg;
+}
+
+.cloud2_1 {
+	position: absolute;
+	display: flex;
+	margin-left: 21.5%;
+	margin-top: 8%;
+	rotate: -7deg;
+}
+
+.cloud2_2 {
+	position: absolute;
+	display: flex;
+	margin-left: 52%;
+	margin-top: 9%;
+	rotate: -7deg;
+}
+
+.cloud2_3 {
+	position: absolute;
+	display: flex;
+	margin-left: -3.5%;
+	margin-top: 52%;
+	rotate: -7deg;
+}
+
+.cloud2_4 {
+	position: absolute;
+	display: flex;
+	margin-left: 27%;
+	margin-top: 51.5%;
+	rotate: -7deg;
+}
+
+.cloud2_5 {
+	position: absolute;
+	display: flex;
+	margin-left: 60.5%;
+	margin-top: 50.5%;
+	rotate: -7deg;
+}
+
+.cloud2_6 {
+	position: absolute;
+	display: flex;
+	margin-left: 93%;
+	margin-top: 51.5%;
+	rotate: -7deg;
+}
+
+.cloud3_1 {
+	position: absolute;
+	display: flex;
+	margin-left: 78%;
+	margin-top: 53%;
+	rotate: 7deg;
+}
+
+.cloud3_2 {
+	position: absolute;
+	display: flex;
+	margin-left: 11.5%;
+	margin-top: 55.5%;
+	rotate: 7deg;
+}
+
+.cloud3_3 {
+	position: absolute;
+	display: flex;
+	margin-left: 45.5%;
+	margin-top: 20%;
+	rotate: 7deg;
+}
+
+.cloud3_4 {
+	position: absolute;
+	display: flex;
+	margin-left: 37%;
+	margin-top: 5%;
+	rotate: 7deg;
+}
+
+
+.cloudshadow {
+	position: absolute;
+	margin-top: 80px;
+	display: flex;
+}
+
+.menu {
+	position: relative;
+	display: flex;
+	background-image: url(../images/fon3sec.svg);
+	width: 100%;
+	height: 1300px;
+	margin-top: 0px;
+}
+
+.h1 {
+	position: absolute;
+	display: flex;
+	font-family: 'Ovo', serif;
+	font-size: 172px;
+	rotate: -2.35deg;
+	margin: 40px 169px;
+	height: 150px;
+}
+
+.h1:hover {
+	color: #3B45A2;
+	transition-duration: .5s;
+}
+
+.title1 {
+	position: absolute;
+	display: block;
+	margin: 335px 590px;
+	rotate: -2.35deg;
+
+}
+
+.title1 h2 {
+	font-size: 57px;
+	font-family: 'Ovo', serif;
+	margin-bottom: 30px;
+	width: 830px;
+}
+
+.title1:hover {
+	color: #3B45A2;
+	transition-duration: .5s;
+}
+
+.title1 .p1 {
+	font-size: 30px;
+	font-family: 'Muli', serif;
+	width: 700px;
+	line-height: 38px;
+	margin-bottom: 15px;
+}
+
+.title1 .p2 {
+	font-size: 43px;
+	font-family: 'Muli', serif;
+
+}
+
+
+
+
+
+.title2 {
+	position: absolute;
+	display: block;
+	margin: 850px 670px;
+	rotate: -2.35deg;
+
+}
+
+.title2 h2 {
+	font-size: 57px;
+	font-family: 'Ovo', serif;
+	margin-bottom: 30px;
+	width: 830px;
+}
+
+.title2 .p1 {
+	font-size: 30px;
+	font-family: 'Muli', serif;
+	width: 700px;
+	line-height: 38px;
+	margin-bottom: 15px;
+}
+
+.title2 .p2 {
+	font-size: 43px;
+	font-family: 'Muli', serif;
+}
+
+.title2:hover {
+	color: #3B45A2;
+	transition-duration: .5s;
+}
+
+.soupshadow {
+	position: absolute;
+	display: flex;
+	top: 320px;
+	left: 80px;
+}
+
+.soupcloud {
+	position: absolute;
+	display: flex;
+	top: 450px;
+	left: 170px;
+	animation-name: soupcloud;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+   animation-direction: normal;
+	animation-timing-function: ease-in-out;
+	animation-play-state: paused;
+
+}
+.soupcloud:hover {
+animation-play-state: running;
+}
+
+
+@keyframes soupcloud {
+	0% {rotate: 0deg; }
+	100% {rotate: 360deg;}
+}
+
+.soup1 {
+	position: absolute;
+	display: flex;
+	top: 310px;
+	left: 65px;
+	animation-name: soup1;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+   animation-direction: reverse;
+	animation-timing-function: ease-in-out;
+}
+
+.soup2 {
+	position: absolute;
+	display: flex;
+	top: 830px;
+	left: 190px;
+	animation-name: soup2;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes soup2 {
+	0% {rotate: 0;}
+	100% {rotate: 360deg;}
+}
+
+@keyframes soup1 {
+	0% {rotate: 0;}
+	100% {rotate: 360deg;}
+}
+
+.soup2_1 {
+	position: absolute;
+	display: flex;
+	top: 830px;
+	left: 190px;
+	animation-name: soup2_1 ;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes soup2_1 {
+	0% {rotate: 0; opacity: 0;}
+	4% {opacity: 0;}
+	5% {opacity: 100%;}
+	9% {opacity: 100%;}
+	10% {opacity: 0;}
+	14% {opacity: 0;}
+	15% {opacity: 100%;}
+	19% {opacity: 100%;}
+	20% {opacity: 0;}
+	24% {opacity: 0;}
+	25% {opacity: 100%;}
+	29% {opacity: 100%;}
+	30% {opacity: 0;}
+	34% {opacity: 0;}
+	35% {opacity: 100%;}
+	39% {opacity: 100%;}
+	40% {opacity: 0;}
+	44% {opacity: 0;}
+	45% {opacity: 100%;}
+	49% {opacity: 100%;}
+	50% {opacity: 0;}
+	54% {opacity: 0;}
+	55% {opacity: 100%;}
+	59% {opacity: 100%;}
+	60% {opacity: 0;}
+	64% {opacity: 0;}
+	65% {opacity: 100%;}
+	69% {opacity: 100%;}
+	70% {opacity: 0;}
+	74% {opacity: 0;}
+	75% {opacity: 100%;}
+	79% {opacity: 100%;}
+	80% {opacity: 0;} 
+	84% {opacity: 0;}
+	85% {opacity: 100%;}
+	89% {opacity: 100%;}
+	90% {opacity: 0;}
+	94% {opacity: 0;}
+	95% {opacity: 100;}
+	99% {opacity: 100%;}
+	100% {rotate: 360deg; opacity: 0%;}
+}
+
+
